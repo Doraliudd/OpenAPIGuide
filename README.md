@@ -29,6 +29,7 @@ API（ApplicationProgrammingInterface,应用程序编程接口）是一些预先
 ## 术语定义 ##
 
 销售易API是通过Https协议以Json格式进行数据交换，接口认证方式采用的是OAuth2.0认证。
+
 |术语|解释说明|
 |-|-|
 |HTTPS|销售易API是采用Https协议进行数据传输，是安全的加密传输协议。|
@@ -37,3 +38,4 @@ API（ApplicationProgrammingInterface,应用程序编程接口）是一些预先
 2.易于解析;
 3.支持多种语言;
 4.代码开发量较少，易于维护|
+
