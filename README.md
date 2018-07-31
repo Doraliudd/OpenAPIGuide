@@ -24,7 +24,7 @@ API（ApplicationProgrammingInterface,应用程序编程接口）是一些预先
 * 每租户文件上传大小限制20M。
 * 每异步任务提交数据量最大为5000。
 * 每异步任务查询返回数据量最大为5000。
->_<b style="color:red">NOTE:</b>无论是Open API还是Bulk API都使用了OAuth2.0协议进行安全认证，确保数据的安全访问，认证成功后，开发者可以使用系统分发的Access token对系统内的业务数据进行访问。参考OAuth安全验证[获取Access token]()。具体接口信息请参考[Open API Reference]()和[Bulk API Reference]()_。
+>_<b style="color:red">NOTE:</b>无论是Open API还是Bulk API都使用了OAuth2.0协议进行安全认证，确保数据的安全访问，认证成功后，开发者可以使用系统分发的Access token对系统内的业务数据进行访问。参考OAuth安全验证[获取Access token]()。具体接口信息请参考[Open API Reference]()和[Bulk API Reference]()。_
 
 ## 术语定义 ##
 
@@ -36,3 +36,12 @@ API（ApplicationProgrammingInterface,应用程序编程接口）是一些预先
 |JSON|JSON是一种轻量级的数据交换格式，具有以下特点：<br> 1.格式比较简单，易于读写，格式都是压缩的，占用带宽小;<br>2.易于解析;<br>3.支持多种语言;<br>4.代码开发量较少，易于维护|
 |OAuth2.0|OAuth2.0协议认证是主要的用户身份验证和授权方式。<br>为了保证API的访问安全性，所有调用销售易API的开发者都需要完成OAuth2.0协议认证规范，获取到访问令牌(access token)之后才可以调用API|
 |接口职能|销售易所提供的API可以是对销售易系统中的一些对象的操作进行的封装，例如：修改客户API，可操作这个接口的用户必须满足：更新客户的功能权限，并且更新的客户必须是未删除、在数据权限范围内的客户等销售易系统规则；否则API调用会提示相应的错误信息。查询等接口同样需满足系统规则。<br>_<b>NOTE:</b> 所以，在确认系统对接需求时，一定要明确此需求在销售易系统中能否执行！_|
+
+#开始开发#
+如果您是新用户，我们建议您阅读使用手册按照以下顺序：
+* 使用销售易API之前需要[开通API License]()。
+* 创建连接器是使用OAuth2.0认证的前提条件，您必需先在销售易的后台管理系统[创建连接器]()，此连接器与您需要对接的第三方应用程序相关。
+* 销售易Open API使用[OAuth2.0安全认证]()来确保数据的安全。
+* 销售易Open API通过HTTP协议与用户通信，需要了解[HTTP请求方式]()。
+
+
