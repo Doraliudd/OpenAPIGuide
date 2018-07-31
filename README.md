@@ -24,7 +24,7 @@ API（ApplicationProgrammingInterface,应用程序编程接口）是一些预先
 * 每租户文件上传大小限制20M。
 * 每异步任务提交数据量最大为5000。
 * 每异步任务查询返回数据量最大为5000。
->_<b style="color:red">NOTE:</b>无论是Open API还是Bulk API都使用了OAuth2.0协议进行安全认证，确保数据的安全访问，认证成功后，开发者可以使用系统分发的Access token对系统内的业务数据进行访问。参考OAuth安全验证[获取Access token]()。具体接口信息请参考[Open API Reference]()和[Bulk API Reference]()。
+>_<b style="color:red">NOTE:</b>无论是Open API还是Bulk API都使用了OAuth2.0协议进行安全认证，确保数据的安全访问，认证成功后，开发者可以使用系统分发的Access token对系统内的业务数据进行访问。参考OAuth安全验证[获取Access token]()。具体接口信息请参考[Open API Reference]()和[Bulk API Reference]()_。
 
 ## 术语定义 ##
 
