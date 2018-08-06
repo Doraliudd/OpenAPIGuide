@@ -4,5 +4,7 @@
 请遵循以下步骤来创建连接器：<br>
 1.登陆[销售易https://crm.xiaoshouyi.com](https://crm.xiaoshouyi.com)。
 <br>
-2.在左侧导航栏的左下角点击**设置>系统**设置进入销售易系统设置页面。
+2.在左侧导航栏的左下角点击![][setting]**设置>系统**设置进入销售易系统设置页面。
+[setting]:
+
 
