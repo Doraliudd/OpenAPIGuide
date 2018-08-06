@@ -1,7 +1,5 @@
 # Open API使用手册
 
-[TOC]
-
 # API简介 #
 API（ApplicationProgrammingInterface,应用程序编程接口）是一些预先定义的函数，目的是提供应用程序与开发人员基于某软件或硬件得以访问一组例程的能力，而开发者可以不用关心应用程序内部的实现。
 
