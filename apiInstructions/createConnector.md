@@ -5,6 +5,6 @@
 1.登陆[销售易https://crm.xiaoshouyi.com](https://crm.xiaoshouyi.com)。
 <br>
 2.在左侧导航栏的左下角点击![][setting]**设置>系统**设置进入销售易系统设置页面。
-[setting]:
+[setting]:https://github.com/Doraliudd/OpenAPIGuide/blob/master/Images/settingIcon.png
 
 
