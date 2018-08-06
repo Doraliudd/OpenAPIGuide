@@ -5,8 +5,8 @@
 1.登陆销售易[https://crm.xiaoshouyi.com](https://crm.xiaoshouyi.com)。
 <br>
 2.在左侧导航栏的左下角点击![](https://github.com/Doraliudd/OpenAPIGuide/blob/master/Images/settingIcon.png)**设置>系统**设置进入销售易系统设置页面。<br>
-![](https://github.com/Doraliudd/OpenAPIGuide/blob/master/Images/admin.png)
+![](https://github.com/Doraliudd/OpenAPIGuide/blob/master/Images/admin.png "系统设置")
 <br>
 3.在销售易【系统设置】页面的左侧导航栏，点击**开发者平台> 连接器**。
-
-
+<br>
+![]()
