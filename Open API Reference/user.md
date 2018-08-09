@@ -21,57 +21,38 @@ GET
 
 ### 返回示例 ###
 
-tt, code, kbd, samp {
-font-family: consolas;
-}
-.prettyprint, pre.prettyprint {
-background-color:#272822;
-border:1px solid #272822;
-overflow: hidden;
-margin:10px0;
-font-family:Helvetica,"Hiragino Sans GB","微软雅黑","Microsoft YaHei UI",SimSun,SimHei, arial, sans-serif;
-}
-.prettyprint.linenums, pre.prettyprint.linenums {
--webkit-box-shadow: inset 40px00#39382E, inset 41px 0 0 #464741;
--moz-box-shadow: inset 40px00#39382E, inset 41px 0 0 #464741;
-box-shadow: inset 40px00#39382E, inset 41px 0 0 #464741;
-}
-.prettyprint.linenums ol, pre.prettyprint.linenums ol {
-padding-left:28px!important;
-margin:0000px;
-}
-.prettyprint.linenums ol li, pre.prettyprint.linenums ol li {
-padding-left:12px;
-color:#bebec5;
-line-height:20px;
-margin-left:0;
-margin:5px;
-list-style:decimal;
-}
-.prettyprint .com {
-color:#93a1a1;
-}
-.prettyprint .lit {
-color:#AE81FF;
-}
-.prettyprint .pun,.prettyprint .opn,.prettyprint .clo {
-color:#F8F8F2;
-}
-.prettyprint .fun {
-color:#dc322f;
-}
-.prettyprint .str,.prettyprint .atv {
-color:#E6DB74;
-}
-.prettyprint .kwd,.prettyprint .tag {
-color:#F92659;
-}
-.prettyprint .typ,.prettyprint .atn,.prettyprint .dec,.prettyprint .var{
-color:#A6E22E;
-}
-.prettyprint .pln {
-color:#66D9EF;
-
+<pre class="prettyprint">
+    <code class="language-javascript">{
+    "name": "user",
+    "custom": false,
+    "label": "用户",
+    "disabled": false,
+    "createable": true,
+    "deletable": true,
+    "updateable": true,
+    "queryable": true,
+    "feedEnabled": true,
+    "fields": [
+        {
+            "propertyname": "id",
+            "label": "ID",
+            "type": "id",
+            "itemType": "long",
+            "defaultValue": null,
+            "enabled": true,
+            "createable": false,
+            "updateable": false,
+            "required": false,
+            "sortable": false,
+            "minLength": 0,
+            "maxLength": 100,
+            "dependentPropertyName": null,
+            "referTo": {},
+            "joinTo": {},
+            "selectitem": [],
+            "checkitem": []
+        }</code>
+</pre>
 
 <table border="0.5px" align="center" bordercolor="gray" background="gray" width="90%" height="100px" style="font-family:微软雅黑; font-size:14px">
     <tr align="left">
