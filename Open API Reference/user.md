@@ -12,6 +12,14 @@
 
 ### URL ###
 
+```java
+https://api.xiaoshouyi.com/data/v1/objects/user/describe
+```
+
+```Python
+https://api.xiaoshouyi.com/data/v1/objects/user/describe
+```
+
 <table border="1px" align="center" bordercolor="black" width="90%" height="100px" style="font-family:微软雅黑; font-size:14px">
     <tr align="left">
         <th>https://api.xiaoshouyi.com/data/v1/objects/user/describe</th>
