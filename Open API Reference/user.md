@@ -21,10 +21,10 @@ GET
 
 ### 返回示例 ###
 
+```Python
 <table border="1px" align="center" bordercolor="gray" width="90%" height="100px" style="font-family:微软雅黑; font-size:14px">
     <tr align="left">
         <th>
-```Python
 {
     "name": "user",
     "custom": false,
@@ -412,11 +412,10 @@ GET
         }
     ],
     "entityTypes": []
-}
-```
-            </th>
+}</th>
     </tr>
 </table>
+```
 
 <table border="1px" align="center" bordercolor="gray" width="90%" height="100px" style="font-family:微软雅黑; font-size:14px">
     <tr align="left">
