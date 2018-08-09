@@ -22,7 +22,7 @@ GET
 ### 返回示例 ###
 
 
-<table border="0.5px" align="center" bordercolor="gray" background="gray" width="80%" height="100px" style="font-family:微软雅黑; font-size:14px">
+<table border="0.5px" align="center" bordercolor="gray" style="background:gray" width="80%" height="100px" style="font-family:微软雅黑; font-size:14px">
     <tr align="left">
         <th>{
     "name": "user",
