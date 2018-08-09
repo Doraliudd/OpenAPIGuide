@@ -42,7 +42,7 @@ API（ApplicationProgrammingInterface,应用程序编程接口）是一些预先
 
 如果您是新用户，我们建议您阅读使用手册按照以下顺序：
 * 使用销售易API之前需要[开通API License](https://github.com/Doraliudd/OpenAPIGuide/edit/master/apiInstructions/%E5%BC%80%E9%80%9AAPI%20License)。
-* 创建连接器是使用OAuth2.0认证的前提条件，您必需先在销售易的后台管理系统[创建连接器]()，此连接器与您需要对接的第三方应用程序相关。
+* 创建连接器是使用OAuth2.0认证的前提条件，您必需先在销售易的后台管理系统[创建连接器](https://github.com/Doraliudd/OpenAPIGuide/blob/master/apiInstructions/createConnector.md)，此连接器与您需要对接的第三方应用程序相关。
 * 销售易Open API使用[OAuth2.0安全认证]()来确保数据的安全。
 * 销售易Open API通过HTTP协议与用户通信，需要了解[HTTP请求方式]()。
 
