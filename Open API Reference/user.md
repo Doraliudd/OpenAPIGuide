@@ -443,7 +443,29 @@ POST
 | --------   | ----- | ---- |
 | id  | long | 新创建的用户ID（唯一标识) | 
 
+### 请求示例 ###
 
+```Python
+{
+    "record": {
+        "email": "xsytest@xiaoshouyi.com",
+        "phone": "17798889875",
+        "name": "xsy_z",
+        "icon": "image",
+        "gender": "1",
+        "departId": 25314,
+        "employeeCode": "077",
+        "positionName": "xsy"
+    }
+}
+```
 
+### 返回示例 ###
+
+```Python
+{
+    "id": 38601
+}
+```
 
 
