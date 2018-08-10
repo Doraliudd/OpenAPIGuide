@@ -29,21 +29,21 @@ GET
     "name": "user",
     "custom": false,
     "label": "用户",
-    "disabled": false,<br>
-    "createable": true,<br>
-    "deletable": true,<br>
-    "updateable": true,<br>
-    "queryable": true,<br>
-    "feedEnabled": true,<br>
-    "fields": [<br>
+    "disabled": false,
+    "createable": true,
+    "deletable": true,
+    "updateable": true,
+    "queryable": true,
+    "feedEnabled": true,
+    "fields": 
         {<br>
-            "propertyname": "id",<br>
-            "label": "ID",<br>
-            "type": "id",<br>
-            "itemType": "long",<br>
-            "defaultValue": null,<br>
+            "propertyname": "id",
+            "label": "ID",
+            "type": "id",
+            "itemType": "long",
+            "defaultValue": null,
             "enabled": true,<br>
-            "createable": false,<br>
+            "createable": false,
             "updateable": false,
             "required": false,
             "sortable": false,
