@@ -26,9 +26,9 @@ GET
     <tr align="left">
         <th>
     {
-    "name": "user",<br>
-    "custom": false,<br>
-    "label": "用户",<br>
+    "name": "user",
+    "custom": false,
+    "label": "用户",
     "disabled": false,<br>
     "createable": true,<br>
     "deletable": true,<br>
