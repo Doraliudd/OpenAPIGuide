@@ -24,25 +24,26 @@ GET
 
 <table border="0.5px" align="center" bordercolor="gray" style="background:gray" width="80%" height="100px" style="font-family:微软雅黑; font-size:14px">
     <tr align="left">
-        <th>{
-    "name": "user",
-    "custom": false,
-    "label": "用户",
-    "disabled": false,
-    "createable": true,
-    "deletable": true,
-    "updateable": true,
-    "queryable": true,
-    "feedEnabled": true,
-    "fields": [
-        {
-            "propertyname": "id",
-            "label": "ID",
-            "type": "id",
-            "itemType": "long",
-            "defaultValue": null,
-            "enabled": true,
-            "createable": false,
+        <th>
+    {
+    "name": "user",<br>
+    "custom": false,<br>
+    "label": "用户",<br>
+    "disabled": false,<br>
+    "createable": true,<br>
+    "deletable": true,<br>
+    "updateable": true,<br>
+    "queryable": true,<br>
+    "feedEnabled": true,<br>
+    "fields": [<br>
+        {<br>
+            "propertyname": "id",<br>
+            "label": "ID",<br>
+            "type": "id",<br>
+            "itemType": "long",<br>
+            "defaultValue": null,<br>
+            "enabled": true,<br>
+            "createable": false,<br>
             "updateable": false,
             "required": false,
             "sortable": false,
